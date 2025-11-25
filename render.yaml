@@ -1,7 +1,0 @@
-
-services:
-  - type: web
-    name: eye-tracking-dashboard
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run streamlit_app/app.py --server.port $PORT --server.enableCORS false
